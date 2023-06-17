@@ -5,17 +5,17 @@
  *
  * Description: print alphabet letters in lower case
  *
- * Return: always 0 (success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
 {
-	char l = 'a';
+	char ch = 'a';
 
-	while (l <= 'z')
+	while (ch <= 'z')
 	{
-		putchar(l);
-		l++;
+		putchar(ch);
+		ch++;
 	}
 	putchar("\n");
 	return (0);
