@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * *_memset - fills memory with a constant byte 
+ * *_memset - fills memory with a constant byte
  * @s: pointer to put the const
  * @b: const
- * @n: max bytes 
- * Return: pointer a 
+ * @n: max bytes
+ * Return: pointer s
  */
 
 char *_memset(char *s, char b, unsigned int n);
@@ -16,6 +16,6 @@ char *_memset(char *s, char b, unsigned int n);
 	{
 		s[t] = b;
 	}
-	
+
 	return (s);
 }
