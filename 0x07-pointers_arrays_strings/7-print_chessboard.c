@@ -4,12 +4,13 @@
  * print_chessboard - prints chessboard
  *
  * @a: rows
- * Return: nothing
+ * Return: Always 0 (success)
  */
 
 void print_chessboard(char (*a)[8])
 {
-	int t, j;
+	int t;
+	int j;
 
 	for (t = 0; t < 8; t++)
 	{
