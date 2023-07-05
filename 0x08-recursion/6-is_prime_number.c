@@ -5,7 +5,7 @@
  * is_prime_number - check if n is a prime number
  * @o: int
  * @n: int
- * Return; 0 or 1
+ * Return: 0 or 1
  */
 
 int check_prime(int n, int o);
