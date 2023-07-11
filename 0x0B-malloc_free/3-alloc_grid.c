@@ -1,4 +1,4 @@
-#include "main."
+#include "main.h"
 
 /**
  * **alloc_grid - returns a pointer to a 2 dimensionalarray of integers
