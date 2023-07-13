@@ -35,10 +35,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	/*copy first string into str*/
 	for (i = 0; s1[i] != '\0'; i++)
 		str[i] = s1[i];
-	/*copy the second one*/
+	/*copy the second into str*/
 	for (j = 0; j < n; j++)
 	{
-		str[i] = s2[i];
+		str[i] = s2[j];
 		i++;
 	}
 
