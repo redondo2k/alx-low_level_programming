@@ -20,8 +20,8 @@ listint_t *find_listint_loop_fl(listint_t *head)
 		if (end == end->next)
 			return (end);
 		for (ptr = head; ptr != end; ptr = ptr->next)
-			if (ptr == end)
-				return (end);
+			if (ptr == end->next)
+				return (end->next);
 	}
 	return (NULL);
 }
@@ -54,7 +54,7 @@ size_t free_listint_safe(listint_t **h)
 				break;
 			}
 			len++;
-			next = (*h)->next;
+			next = next->next;
 			free((*h)->next);
 			loop = 0;
 		}
