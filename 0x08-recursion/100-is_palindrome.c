@@ -3,7 +3,7 @@
 /**
  * last_index - returns the last index of a string
  * @s: pointer to string
- * Return/ int
+ * Return: int
  */
 
 int is_palindrome(char *s);
