@@ -38,7 +38,7 @@ char *_strcopy(char *dest, char *src)
 	return (dest);
 }
 
-/*
+/**
  * new_dog - a function that creates a new dog
  *
  * @name: name of dog
@@ -54,7 +54,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog_t *dog;
 
 	/* if name and owner are empty and age is less than zero return null*/
-	if (!num || age < 0 || !owner)
+	if (!name || age < 0 || !owner)
 		return (NULL);
 
 	dog = (dog_t *) malloc(sizeof(dog_t));
